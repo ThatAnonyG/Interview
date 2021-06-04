@@ -1,0 +1,25 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/ThatAnonyG/Interview.git",
+  "author": "Ratul Saha <ratulsaha90.rs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "format": "prettier \"{lib,__tests__}/**/*.js\" --write"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/__tests__"
+    ],
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "prettier": "^2.3.0"
+  }
+}
